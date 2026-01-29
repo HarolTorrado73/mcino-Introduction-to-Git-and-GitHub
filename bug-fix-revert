@@ -4,14 +4,14 @@ Tarea 8: Comando curl y salida que verifica que tu solicitud de extracción (pul
 COMANDO (ejecuta en la terminal):
 ================================================================================
 
-COMANDO ejecutado:
-curl --ssl-no-revoke "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/42"
+COMANDO ejecutado (tu PR #4847):
+curl --ssl-no-revoke "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/4847"
 
 ================================================================================
 SALIDA EN LA TERMINAL:
 ================================================================================
 
-(Fragmento de la respuesta JSON; incluye "head" con el repo bifurcado y "base" con el repo destino.)
+(Ejecuta el comando de arriba y pega aquí la salida completa. La respuesta incluirá "head" con tu fork HarolTorrado73/mcino-Introduction-to-Git-and-GitHub y "base" con ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.)
 
     "following_url": "https://api.github.com/users/KristanBacikHybben/following{/other_user}",
     "gists_url": "https://api.github.com/users/KristanBacikHybben/gists{/gist_id}",
