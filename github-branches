@@ -1,0 +1,38 @@
+Tarea 9: Salida del terminal mostrando los nombres de las ramas y su estado en el repositorio.
+
+================================================================================
+COMANDOS EJECUTADOS:
+================================================================================
+
+git branch -a
+git status
+
+================================================================================
+SALIDA EN LA TERMINAL:
+================================================================================
+
+rogma@RogMaster MINGW64 ~/Documents/cousera/Fullstack/Git-GitHub/REPO/Proyectofinal/mcino-Introduction-to-Git-and-GitHub (main)
+$ git branch -a
+git status
+  bug-fix-revert
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bug-fix-revert
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github-branches
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+rogma@RogMaster MINGW64 ~/Documents/cousera/Fullstack/Git-GitHub/REPO/Proyectofinal/mcino-Introduction-to-Git-and-GitHub (main)
+$
